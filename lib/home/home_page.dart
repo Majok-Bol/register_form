@@ -100,6 +100,7 @@ class _HomePageState extends State<HomePage> {
                     print(
                       'Name: $name\nPhone: $phone\nEmail address:$email\nPassword: $password\n',
                     );
+                    _formKey.currentState!.reset();
                   }
                 },
                 child: Text('Register'),
